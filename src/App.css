@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  border: 0;
+  outline: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+:root {
+  --bg-color: #e250e6;
+  --color-btn: #fcfcfc;
+  --color-hov: #5f61b3;
+
+  --container-width-lg: 75%;
+  --container-width-md: 86%;
+  --container-width-sm: 70%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+
+
+body {
+  font-family: 'Poppins', sans-serif !important;
+  background: #14141f !important;
+  color: #fff;
+}
+
+
+
+h1,
+h2 {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+p {
+  font-weight: 400;
+  font-size: 1rem;
+  color: #fff;
+  opacity: 85%;
+  line-height: 35px;
+}
+
+a {
+  color: unset;
+}
+
+a:hover {
+  color: unset;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+section,
+footer {
+  padding: 60px 0px;
+}
+
+
+
+
+/* ======================custom scroll-bars======================= */
+
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(#e250e6, #4b50e6, #e250e6, #4b50e6);
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #fcfcfc;
+}
